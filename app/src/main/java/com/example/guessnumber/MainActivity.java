@@ -15,6 +15,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
     private int[] inputRes =
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
     }
 
-
+    // 輸入數字鍵
     public void inputNumber(View view) {
         if (inputPoint == 4) return;    // 此時只能 send or back or clear
 
